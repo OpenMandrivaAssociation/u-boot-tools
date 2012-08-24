@@ -1,10 +1,12 @@
+%define	daterel	2012.04
+
 Name:		u-boot-tools
-Version:	20111112
+Version:	20120404
 Release:	1
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
 Url:		http://www.denx.de/wiki/U-Boot
-Source0:	u-boot-2011.12.tar.bz2
+Source0:	ftp://ftp.denx.de/pub/u-boot/u-boot-%{daterel}.tar.bz2
 License:	GPLv2
 
 %description
@@ -18,11 +20,12 @@ Summary:	Documentation for the u-boot Firmware
 Group:		Development/Other
 
 %description doc
-Das U-Boot (or just "U-Boot" for short) is Open Source Firmware for Embedded PowerPC, ARM, MIPS and x86 processors.
+Das U-Boot (or just "U-Boot" for short) is Open Source Firmware
+for Embedded PowerPC, ARM, MIPS and x86 processors.
 This package contains documentation for u-boot firmware
 
 %prep
-%setup -q -n u-boot-2011.12
+%setup -q -n u-boot-%{daterel}
 
 %build
 sed -i -e "s:-g ::" tools/Makefile || die
