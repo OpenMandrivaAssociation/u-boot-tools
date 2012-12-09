@@ -1,2 +1,3 @@
 sources:
-  "u-boot-2012.04.tar.bz2:"	f32ecfdee0c7348c2fa9a368475bdd1cd82f9376
+  "u-boot-2012.04.tar.bz2": f32ecfdee0c7348c2fa9a368475bdd1cd82f9376
+  u-boot-2012.10.tar.bz2: 80bc5f6d3e518803c9320d480e693fe1cb76a494

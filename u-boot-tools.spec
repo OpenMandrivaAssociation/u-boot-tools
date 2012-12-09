@@ -1,7 +1,8 @@
-%define	daterel	2012.04
+%define debug_package %nil
+%define	daterel	2012.10
 
 Name:		u-boot-tools
-Version:	20120404
+Version:	20121012
 Release:	1
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
