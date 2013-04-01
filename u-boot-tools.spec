@@ -30,7 +30,7 @@ This package contains documentation for u-boot firmware
 
 %build
 sed -i -e "s:-g ::" tools/Makefile || die
-%make USE_PRIVATE_LIBGG=yes tools
+%make HOSTCC=%{__cc} HOSTSTRIP=%{__strip}  USE_PRIVATE_LIBGG=yes tools
 
 %install
 install -D -m 0755 tools/mkimage %{buildroot}%{_bindir}/mkimage
