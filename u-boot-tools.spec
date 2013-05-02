@@ -1,14 +1,15 @@
 %define debug_package %nil
-%define	daterel	2012.10
+%define	daterel	2013.04
 
 Name:		u-boot-tools
-Version:	20121012
+Version:	20130501
 Release:	1
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
 Url:		http://www.denx.de/wiki/U-Boot
 Source0:	ftp://ftp.denx.de/pub/u-boot/u-boot-%{daterel}.tar.bz2
 License:	GPLv2
+Provides:	uboot-mkimage
 
 %description
 Das U-Boot (or just "U-Boot" for short) 
