@@ -2,7 +2,7 @@
 
 Name:		u-boot-tools
 Version:	2013.07
-Release:	2
+Release:	3
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
 Epoch:		1
