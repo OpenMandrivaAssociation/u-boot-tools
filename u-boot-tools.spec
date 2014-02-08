@@ -3,7 +3,7 @@
 
 Name:		u-boot-tools
 Version:	20130501
-Release:	1
+Release:	2
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
 Url:		http://www.denx.de/wiki/U-Boot
