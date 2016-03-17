@@ -1,6 +1,2 @@
-removed_sources:
-  u-boot-2012.04.tar.bz2: f32ecfdee0c7348c2fa9a368475bdd1cd82f9376
-  u-boot-2012.10.tar.bz2: 80bc5f6d3e518803c9320d480e693fe1cb76a494
-  u-boot-2013.04.tar.bz2: 78e502589a079c85624487c78af4e48363c06ea7
 sources:
-  u-boot-2013.07.tar.bz2: cc3426994221595eee52ad13f2bcb9e83a0ad5a3
+  u-boot-2016.03.tar.bz2: eb02f47447ad5d34f32962fadead2a061e483053
