@@ -11,6 +11,8 @@ Source0:	ftp://ftp.denx.de/pub/u-boot/u-boot-%{version}.tar.bz2
 License:	GPLv2
 BuildRequires:	dtc
 BuildRequires:	openssl-devel
+BuildRequires:	bison
+BuildRequires:	flex
 Provides:	uboot-mkimage
 
 %description
