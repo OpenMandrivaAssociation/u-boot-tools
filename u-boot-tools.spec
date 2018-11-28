@@ -1,8 +1,8 @@
 %define debug_package %nil
 
 Name:		u-boot-tools
-Version:	2016.03
-Release:	2
+Version:	2018.11
+Release:	1
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
 Epoch:		1
