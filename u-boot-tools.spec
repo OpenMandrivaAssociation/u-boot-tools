@@ -1,7 +1,7 @@
 %define debug_package %nil
 
 Name:		u-boot-tools
-Version:	2019.10
+Version:	2020.01
 Release:	1
 Summary:	Tools for the u-boot Firmware
 Group:		System/Kernel and hardware
